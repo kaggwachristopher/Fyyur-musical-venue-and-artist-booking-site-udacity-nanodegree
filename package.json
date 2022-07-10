@@ -1,0 +1,23 @@
+{
+  "name": "fyyur-music-venue-and-artist-booking-site",
+  "version": "1.0.0",
+  "description": "Fyyur venue booking site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaggwachristopher/Fyyur-musical-venue-and-artist-booking-site-udacity-nanodegree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaggwachristopher/Fyyur-musical-venue-and-artist-booking-site-udacity-nanodegree/issues"
+  },
+  "homepage": "https://github.com/kaggwachristopher/Fyyur-musical-venue-and-artist-booking-site-udacity-nanodegree#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  }
+}
