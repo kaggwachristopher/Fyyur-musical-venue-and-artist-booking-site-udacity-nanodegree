@@ -107,11 +107,16 @@
   </div>
 
   <script>
+    var csrf_token = '{{ csrf_token() }}'
     const deleteButton = document.getElementById('delete-button')
     deleteButton.onclick = function (e) {
       const venueId = e.target.dataset['id']
       fetch(`/venues/${venueId}`, {
-        method: 'DELETE'
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-TOKEN': csrf_token
+        }
       })
     }
   </script>
