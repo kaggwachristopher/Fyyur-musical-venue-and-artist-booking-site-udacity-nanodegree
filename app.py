@@ -465,7 +465,7 @@ def create_artist_submission():
             phone=request.form.get('phone'),
             image_link=request.form.get('image_link'),
             facebook_link=request.form.get('facebook_link'),
-            genres=request.json.dumps(request.form.getlist('genres')),
+            genres=json.dumps(request.form.getlist('genres')),
             seeking_venue=True if 'seeking_venue' in request.form else False,
             seeking_description=request.form.get('seeking_description'),
             website_link=request.form.get('website_link')
